@@ -2,6 +2,18 @@
 
 Format your Svelte components using Prettier.
 
+## Repository provenance and verification
+
+This repository is located under VizHub's GitHub organization, but the package declares the published name **`prettier-plugin-svelte`** and retains upstream Svelte/Prettier documentation. Do not treat repository ownership as evidence that there is a distinct VizHub package or a current supported VS Code extension.
+
+```bash
+npm ci
+npm run build
+npm test
+```
+
+The source is in [`src/`](src/) and the test suite in [`test/`](test/); `npm test` runs AVA. Compatibility depends on the actual checked-in dependency versions and Svelte/Prettier interfaces; historical version ranges or editor-bundling claims below must be verified before recommending this fork to new projects. Keep upstream attributions and the existing [changelog](CHANGELOG.md).
+
 ## Features
 
 -   Format your HTML, CSS, and JavaScript using prettier
